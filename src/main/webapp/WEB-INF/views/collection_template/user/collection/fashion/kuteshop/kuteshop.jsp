@@ -1,5 +1,5 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ page session="false" %>
+<!DOCTYPE html>
 <html ng-app="kuteshopApp">
 <head>
     <meta charset="UTF-8">
@@ -29,14 +29,6 @@
         <span class="btn-close"></span>
     </div>
 </div>-->
-
-<div ng-controller="demoCtrl">
-    <ul>
-        <li ng-repeat="x in names">
-            {{ x.name + ', ' + x.country }}
-        </li>
-    </ul>
-</div>
 
 <!-- HEADER -->
 <div id="header" class="header">

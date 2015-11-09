@@ -12,7 +12,9 @@ public class ViewByCustomer {
 	public String getTemplateByCustomerId(@PathVariable(value="nameShop") String nameShop){
 		if(nameShop.equals("quan")){
 			return "collection_template/user/collection/fashion/kuteshop/kuteshop.jsp";
+		}else if(nameShop.equals("lien")){
+			return "collection_template/user/collection/fashion/kuteshop/kuteshop_index2.jsp";
 		}
-		return "views/html.jsp";
+		return "collection_template/admin/collection/admin/metronic/theme/templates/admin6/index.jsp";
 	}
 }

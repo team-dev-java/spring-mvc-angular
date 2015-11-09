@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!-- 
 Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 3.3.5
 Version: 4.1.0
@@ -26,24 +26,24 @@ License: You must have a valid license purchased only from themeforest(the above
 <!-- BEGIN GLOBAL MANDATORY STYLES -->
 <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
 <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css"/>
-<link href="../../assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-<link href="../../assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
-<link href="../../assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-<link href="../../assets/global/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css"/>
-<link href="../../assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css"/>
+<link href="<c:url value="/resources/admin/metronic/assets/global/plugins/font-awesome/css/font-awesome.min.css"/>" rel="stylesheet" type="text/css"/>
+<link href="<c:url value="/resources/admin/metronic/assets/global/plugins/simple-line-icons/simple-line-icons.min.css"/>" rel="stylesheet" type="text/css"/>
+<link href="<c:url value="/resources/admin/metronic/assets/global/plugins/bootstrap/css/bootstrap.min.css"/>" rel="stylesheet" type="text/css"/>
+<link href="<c:url value="/resources/admin/metronic/assets/global/plugins/uniform/css/uniform.default.css"/>" rel="stylesheet" type="text/css"/>
+<link href="<c:url value="/resources/admin/metronic/assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css"/>" rel="stylesheet" type="text/css"/>
 <!-- END GLOBAL MANDATORY STYLES -->
 <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
-<link href="../../assets/global/plugins/morris/morris.css" rel="stylesheet" type="text/css">
+<link href="<c:url value="/resources/admin/metronic/assets/global/plugins/morris/morris.css"/>" rel="stylesheet" type="text/css">
 <!-- END PAGE LEVEL PLUGIN STYLES -->
 <!-- BEGIN PAGE STYLES -->
-<link href="../../assets/admin/pages/css/tasks.css" rel="stylesheet" type="text/css"/>
+<link href="<c:url value="/resources/admin/metronic/assets/admin/pages/css/tasks.css"/>" rel="stylesheet" type="text/css"/>
 <!-- END PAGE STYLES -->
 <!-- BEGIN THEME STYLES -->
-<!-- DOC: To use 'rounded corners' style just load 'components-rounded.css' stylesheet instead of 'components.css' in the below style tag -->
-<link href="../../assets/global/css/components-rounded.css" id="style_components" rel="stylesheet" type="text/css"/>
-<link href="../../assets/global/css/plugins.css" rel="stylesheet" type="text/css"/>
-<link href="../../assets/admin/layout6/css/layout.css" rel="stylesheet" type="text/css"/>
-<link href="../../assets/admin/layout6/css/custom.css" rel="stylesheet" type="text/css"/>
+<!-- DOC: To use 'rounded corners' style just load 'components-rounded.css'/>" stylesheet instead of 'components.css'/>" in the below style tag -->
+<link href="<c:url value="/resources/admin/metronic/assets/global/css/components-rounded.css"/>" id="style_components" rel="stylesheet" type="text/css"/>
+<link href="<c:url value="/resources/admin/metronic/assets/global/css/plugins.css"/>" rel="stylesheet" type="text/css"/>
+<link href="<c:url value="/resources/admin/metronic/assets/admin/layout6/css/layout.css"/>" rel="stylesheet" type="text/css"/>
+<link href="<c:url value="/resources/admin/metronic/assets/admin/layout6/css/custom.css"/>" rel="stylesheet" type="text/css"/>
 <!-- END THEME STYLES -->
 <link rel="shortcut icon" href="favicon.ico"/>
 </head>
@@ -59,7 +59,7 @@ License: You must have a valid license purchased only from themeforest(the above
                 <div class="havbar-header">
                 	<!-- BEGIN LOGO -->
                     <a id="index" class="navbar-brand" href="start.html">
-                        <img src="../../assets/admin/layout6/img/logo.png" alt="Logo">
+                        <img src="<c:url value="/resources/admin/metronic/assets/admin/layout6/img/logo.png"/>" alt="Logo">
                     </a>
                 	<!-- END LOGO -->
 
@@ -196,7 +196,7 @@ License: You must have a valid license purchased only from themeforest(the above
 	                	<!-- BEGIN USER PROFILE -->
 		                <div class="btn-group-img btn-group">
 							<button type="button" class="btn btn-sm dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-								<img src="../../assets/admin/layout5/img/avatar1.jpg" alt="">
+								<img src="<c:url value="/resources/admin/metronic/assets/admin/layout5/img/avatar1.jpg"/>" alt="">
 							</button>
 							<ul class="dropdown-menu-v2" role="menu">
 								<li class="active">
@@ -624,7 +624,7 @@ License: You must have a valid license purchased only from themeforest(the above
 									</thead>
 									<tr>
 										<td class="fit">
-											<img class="user-pic" src="../../assets/admin/layout3/img/avatar4.jpg" alt="">
+											<img class="user-pic" src="<c:url value="/resources/admin/metronic/assets/admin/layout3/img/avatar4.jpg"/>" alt="">
 										</td>
 										<td>
 											<a href="javascript:;" class="primary-link">Brain</a>
@@ -644,7 +644,7 @@ License: You must have a valid license purchased only from themeforest(the above
 									</tr>
 									<tr>
 										<td class="fit">
-											<img class="user-pic" src="../../assets/admin/layout3/img/avatar5.jpg" alt="">
+											<img class="user-pic" src="<c:url value="/resources/admin/metronic/assets/admin/layout3/img/avatar5.jpg"/>" alt="">
 										</td>
 										<td>
 											<a href="javascript:;" class="primary-link">Nick</a>
@@ -664,7 +664,7 @@ License: You must have a valid license purchased only from themeforest(the above
 									</tr>
 									<tr>
 										<td class="fit">
-											<img class="user-pic" src="../../assets/admin/layout3/img/avatar6.jpg" alt="">
+											<img class="user-pic" src="<c:url value="/resources/admin/metronic/assets/admin/layout3/img/avatar6.jpg"/>" alt="">
 										</td>
 										<td>
 											<a href="javascript:;" class="primary-link">Tim</a>
@@ -684,7 +684,7 @@ License: You must have a valid license purchased only from themeforest(the above
 									</tr>
 									<tr>
 										<td class="fit">
-											<img class="user-pic" src="../../assets/admin/layout3/img/avatar7.jpg" alt="">
+											<img class="user-pic" src="<c:url value="/resources/admin/metronic/assets/admin/layout3/img/avatar7.jpg"/>" alt="">
 										</td>
 										<td>
 											<a href="javascript:;" class="primary-link">Tom</a>
@@ -1063,7 +1063,7 @@ License: You must have a valid license purchased only from themeforest(the above
 										<div class="item">
 											<div class="item-head">
 												<div class="item-details">
-													<img class="item-pic" src="../../assets/admin/layout3/img/avatar4.jpg" alt="">
+													<img class="item-pic" src="<c:url value="/resources/admin/metronic/assets/admin/layout3/img/avatar4.jpg"/>" alt="">
 													<a href="" class="item-name primary-link">Nick Larson</a>
 													<span class="item-label">3 hrs ago</span>
 												</div>
@@ -1076,7 +1076,7 @@ License: You must have a valid license purchased only from themeforest(the above
 										<div class="item">
 											<div class="item-head">
 												<div class="item-details">
-													<img class="item-pic" src="../../assets/admin/layout3/img/avatar3.jpg" alt="">
+													<img class="item-pic" src="<c:url value="/resources/admin/metronic/assets/admin/layout3/img/avatar3.jpg"/>" alt="">
 													<a href="" class="item-name primary-link">Mark</a>
 													<span class="item-label">5 hrs ago</span>
 												</div>
@@ -1089,7 +1089,7 @@ License: You must have a valid license purchased only from themeforest(the above
 										<div class="item">
 											<div class="item-head">
 												<div class="item-details">
-													<img class="item-pic" src="../../assets/admin/layout3/img/avatar6.jpg" alt="">
+													<img class="item-pic" src="<c:url value="/resources/admin/metronic/assets/admin/layout3/img/avatar6.jpg"/>" alt="">
 													<a href="" class="item-name primary-link">Nick Larson</a>
 													<span class="item-label">8 hrs ago</span>
 												</div>
@@ -1102,7 +1102,7 @@ License: You must have a valid license purchased only from themeforest(the above
 										<div class="item">
 											<div class="item-head">
 												<div class="item-details">
-													<img class="item-pic" src="../../assets/admin/layout3/img/avatar7.jpg" alt="">
+													<img class="item-pic" src="<c:url value="/resources/admin/metronic/assets/admin/layout3/img/avatar7.jpg"/>" alt="">
 													<a href="" class="item-name primary-link">Nick Larson</a>
 													<span class="item-label">12 hrs ago</span>
 												</div>
@@ -1115,7 +1115,7 @@ License: You must have a valid license purchased only from themeforest(the above
 										<div class="item">
 											<div class="item-head">
 												<div class="item-details">
-													<img class="item-pic" src="../../assets/admin/layout3/img/avatar9.jpg" alt="">
+													<img class="item-pic" src="<c:url value="/resources/admin/metronic/assets/admin/layout3/img/avatar9.jpg"/>" alt="">
 													<a href="" class="item-name primary-link">Richard Stone</a>
 													<span class="item-label">2 days ago</span>
 												</div>
@@ -1128,7 +1128,7 @@ License: You must have a valid license purchased only from themeforest(the above
 										<div class="item">
 											<div class="item-head">
 												<div class="item-details">
-													<img class="item-pic" src="../../assets/admin/layout3/img/avatar8.jpg" alt="">
+													<img class="item-pic" src="<c:url value="/resources/admin/metronic/assets/admin/layout3/img/avatar8.jpg"/>" alt="">
 													<a href="" class="item-name primary-link">Dan</a>
 													<span class="item-label">3 days ago</span>
 												</div>
@@ -1141,7 +1141,7 @@ License: You must have a valid license purchased only from themeforest(the above
 										<div class="item">
 											<div class="item-head">
 												<div class="item-details">
-													<img class="item-pic" src="../../assets/admin/layout3/img/avatar2.jpg" alt="">
+													<img class="item-pic" src="<c:url value="/resources/admin/metronic/assets/admin/layout3/img/avatar2.jpg"/>" alt="">
 													<a href="" class="item-name primary-link">Larry</a>
 													<span class="item-label">4 hrs ago</span>
 												</div>
@@ -2232,7 +2232,7 @@ License: You must have a valid license purchased only from themeforest(the above
 											<div class="media-status">
 												<span class="badge badge-success">8</span>
 											</div>
-											<img class="media-object" src="../../assets/admin/layout/img/avatar3.jpg" alt="...">
+											<img class="media-object" src="<c:url value="/resources/admin/metronic/assets/admin/layout/img/avatar3.jpg"/>" alt="...">
 											<div class="media-body">
 												<h4 class="media-heading">Bob Nilson</h4>
 												<div class="media-heading-sub">
@@ -2241,7 +2241,7 @@ License: You must have a valid license purchased only from themeforest(the above
 											</div>
 										</li>
 										<li class="media">
-											<img class="media-object" src="../../assets/admin/layout/img/avatar1.jpg" alt="...">
+											<img class="media-object" src="<c:url value="/resources/admin/metronic/assets/admin/layout/img/avatar1.jpg"/>" alt="...">
 											<div class="media-body">
 												<h4 class="media-heading">Nick Larson</h4>
 												<div class="media-heading-sub">
@@ -2253,7 +2253,7 @@ License: You must have a valid license purchased only from themeforest(the above
 											<div class="media-status">
 												<span class="badge badge-danger">3</span>
 											</div>
-											<img class="media-object" src="../../assets/admin/layout/img/avatar4.jpg" alt="...">
+											<img class="media-object" src="<c:url value="/resources/admin/metronic/assets/admin/layout/img/avatar4.jpg"/>" alt="...">
 											<div class="media-body">
 												<h4 class="media-heading">Deon Hubert</h4>
 												<div class="media-heading-sub">
@@ -2262,7 +2262,7 @@ License: You must have a valid license purchased only from themeforest(the above
 											</div>
 										</li>
 										<li class="media">
-											<img class="media-object" src="../../assets/admin/layout/img/avatar2.jpg" alt="...">
+											<img class="media-object" src="<c:url value="/resources/admin/metronic/assets/admin/layout/img/avatar2.jpg"/>" alt="...">
 											<div class="media-body">
 												<h4 class="media-heading">Ella Wong</h4>
 												<div class="media-heading-sub">
@@ -2277,7 +2277,7 @@ License: You must have a valid license purchased only from themeforest(the above
 											<div class="media-status">
 												<span class="badge badge-warning">2</span>
 											</div>
-											<img class="media-object" src="../../assets/admin/layout/img/avatar6.jpg" alt="...">
+											<img class="media-object" src="<c:url value="/resources/admin/metronic/assets/admin/layout/img/avatar6.jpg"/>" alt="...">
 											<div class="media-body">
 												<h4 class="media-heading">Lara Kunis</h4>
 												<div class="media-heading-sub">
@@ -2292,7 +2292,7 @@ License: You must have a valid license purchased only from themeforest(the above
 											<div class="media-status">
 												<span class="label label-sm label-success">new</span>
 											</div>
-											<img class="media-object" src="../../assets/admin/layout/img/avatar7.jpg" alt="...">
+											<img class="media-object" src="<c:url value="/resources/admin/metronic/assets/admin/layout/img/avatar7.jpg"/>" alt="...">
 											<div class="media-body">
 												<h4 class="media-heading">Ernie Kyllonen</h4>
 												<div class="media-heading-sub">
@@ -2302,7 +2302,7 @@ License: You must have a valid license purchased only from themeforest(the above
 											</div>
 										</li>
 										<li class="media">
-											<img class="media-object" src="../../assets/admin/layout/img/avatar8.jpg" alt="...">
+											<img class="media-object" src="<c:url value="/resources/admin/metronic/assets/admin/layout/img/avatar8.jpg"/>" alt="...">
 											<div class="media-body">
 												<h4 class="media-heading">Lisa Stone</h4>
 												<div class="media-heading-sub">
@@ -2317,7 +2317,7 @@ License: You must have a valid license purchased only from themeforest(the above
 											<div class="media-status">
 												<span class="badge badge-success">7</span>
 											</div>
-											<img class="media-object" src="../../assets/admin/layout/img/avatar9.jpg" alt="...">
+											<img class="media-object" src="<c:url value="/resources/admin/metronic/assets/admin/layout/img/avatar9.jpg"/>" alt="...">
 											<div class="media-body">
 												<h4 class="media-heading">Deon Portalatin</h4>
 												<div class="media-heading-sub">
@@ -2326,7 +2326,7 @@ License: You must have a valid license purchased only from themeforest(the above
 											</div>
 										</li>
 										<li class="media">
-											<img class="media-object" src="../../assets/admin/layout/img/avatar10.jpg" alt="...">
+											<img class="media-object" src="<c:url value="/resources/admin/metronic/assets/admin/layout/img/avatar10.jpg"/>" alt="...">
 											<div class="media-body">
 												<h4 class="media-heading">Irina Savikova</h4>
 												<div class="media-heading-sub">
@@ -2338,7 +2338,7 @@ License: You must have a valid license purchased only from themeforest(the above
 											<div class="media-status">
 												<span class="badge badge-danger">4</span>
 											</div>
-											<img class="media-object" src="../../assets/admin/layout/img/avatar11.jpg" alt="...">
+											<img class="media-object" src="<c:url value="/resources/admin/metronic/assets/admin/layout/img/avatar11.jpg"/>" alt="...">
 											<div class="media-body">
 												<h4 class="media-heading">Maria Gomez</h4>
 												<div class="media-heading-sub">
@@ -2358,7 +2358,7 @@ License: You must have a valid license purchased only from themeforest(the above
 										</div>
 										<div class="page-quick-sidebar-chat-user-messages">
 											<div class="post out">
-												<img class="avatar" alt="" src="../../assets/admin/layout/img/avatar3.jpg"/>
+												<img class="avatar" alt="" src="<c:url value="/resources/admin/metronic/assets/admin/layout/img/avatar3.jpg"/>"/>
 												<div class="message">
 													<span class="arrow"></span>
 													<a href="javascript:;" class="name">Bob Nilson</a>
@@ -2368,7 +2368,7 @@ License: You must have a valid license purchased only from themeforest(the above
 												</div>
 											</div>
 											<div class="post in">
-												<img class="avatar" alt="" src="../../assets/admin/layout/img/avatar2.jpg"/>
+												<img class="avatar" alt="" src="<c:url value="/resources/admin/metronic/assets/admin/layout/img/avatar2.jpg"/>"/>
 												<div class="message">
 													<span class="arrow"></span>
 													<a href="javascript:;" class="name">Ella Wong</a>
@@ -2378,7 +2378,7 @@ License: You must have a valid license purchased only from themeforest(the above
 												</div>
 											</div>
 											<div class="post out">
-												<img class="avatar" alt="" src="../../assets/admin/layout/img/avatar3.jpg"/>
+												<img class="avatar" alt="" src="<c:url value="/resources/admin/metronic/assets/admin/layout/img/avatar3.jpg"/>"/>
 												<div class="message">
 													<span class="arrow"></span>
 													<a href="javascript:;" class="name">Bob Nilson</a>
@@ -2388,7 +2388,7 @@ License: You must have a valid license purchased only from themeforest(the above
 												</div>
 											</div>
 											<div class="post in">
-												<img class="avatar" alt="" src="../../assets/admin/layout/img/avatar2.jpg"/>
+												<img class="avatar" alt="" src="<c:url value="/resources/admin/metronic/assets/admin/layout/img/avatar2.jpg"/>"/>
 												<div class="message">
 													<span class="arrow"></span>
 													<a href="javascript:;" class="name">Ella Wong</a>
@@ -2398,7 +2398,7 @@ License: You must have a valid license purchased only from themeforest(the above
 												</div>
 											</div>
 											<div class="post out">
-												<img class="avatar" alt="" src="../../assets/admin/layout/img/avatar3.jpg"/>
+												<img class="avatar" alt="" src="<c:url value="/resources/admin/metronic/assets/admin/layout/img/avatar3.jpg"/>"/>
 												<div class="message">
 													<span class="arrow"></span>
 													<a href="javascript:;" class="name">Bob Nilson</a>
@@ -2408,7 +2408,7 @@ License: You must have a valid license purchased only from themeforest(the above
 												</div>
 											</div>
 											<div class="post in">
-												<img class="avatar" alt="" src="../../assets/admin/layout/img/avatar2.jpg"/>
+												<img class="avatar" alt="" src="<c:url value="/resources/admin/metronic/assets/admin/layout/img/avatar2.jpg"/>"/>
 												<div class="message">
 													<span class="arrow"></span>
 													<a href="javascript:;" class="name">Ella Wong</a>
@@ -2418,7 +2418,7 @@ License: You must have a valid license purchased only from themeforest(the above
 												</div>
 											</div>
 											<div class="post out">
-												<img class="avatar" alt="" src="../../assets/admin/layout/img/avatar3.jpg"/>
+												<img class="avatar" alt="" src="<c:url value="/resources/admin/metronic/assets/admin/layout/img/avatar3.jpg"/>"/>
 												<div class="message">
 													<span class="arrow"></span>
 													<a href="javascript:;" class="name">Bob Nilson</a>
@@ -2428,7 +2428,7 @@ License: You must have a valid license purchased only from themeforest(the above
 												</div>
 											</div>
 											<div class="post in">
-												<img class="avatar" alt="" src="../../assets/admin/layout/img/avatar2.jpg"/>
+												<img class="avatar" alt="" src="<c:url value="/resources/admin/metronic/assets/admin/layout/img/avatar2.jpg"/>"/>
 												<div class="message">
 													<span class="arrow"></span>
 													<a href="javascript:;" class="name">Ella Wong</a>
@@ -2438,7 +2438,7 @@ License: You must have a valid license purchased only from themeforest(the above
 												</div>
 											</div>
 											<div class="post out">
-												<img class="avatar" alt="" src="../../assets/admin/layout/img/avatar3.jpg"/>
+												<img class="avatar" alt="" src="<c:url value="/resources/admin/metronic/assets/admin/layout/img/avatar3.jpg"/>"/>
 												<div class="message">
 													<span class="arrow"></span>
 													<a href="javascript:;" class="name">Bob Nilson</a>
@@ -2707,34 +2707,34 @@ License: You must have a valid license purchased only from themeforest(the above
 <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
 <!-- BEGIN CORE PLUGINS -->
 <!--[if lt IE 9]>
-<script src="../../assets/global/plugins/respond.min.js"></script>
-<script src="../../assets/global/plugins/excanvas.min.js"></script> 
+<script src="<c:url value="/resources/admin/metronic/assets/global/plugins/respond.min.js"/>"></script>
+<script src="<c:url value="/resources/admin/metronic/assets/global/plugins/excanvas.min.js"/>"></script> 
 <![endif]-->
-<script src="../../assets/global/plugins/jquery.min.js" type="text/javascript"></script>
-<script src="../../assets/global/plugins/jquery-migrate.min.js" type="text/javascript"></script>
-<script src="../../assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-<script src="../../assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
-<script src="../../assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
-<script src="../../assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
-<script src="../../assets/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
-<script src="../../assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+<script src="<c:url value="/resources/admin/metronic/assets/global/plugins/jquery.min.js"/>" type="text/javascript"></script>
+<script src="<c:url value="/resources/admin/metronic/assets/global/plugins/jquery-migrate.min.js"/>" type="text/javascript"></script>
+<script src="<c:url value="/resources/admin/metronic/assets/global/plugins/bootstrap/js/bootstrap.min.js"/>" type="text/javascript"></script>
+<script src="<c:url value="/resources/admin/metronic/assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js"/>" type="text/javascript"></script>
+<script src="<c:url value="/resources/admin/metronic/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js"/>" type="text/javascript"></script>
+<script src="<c:url value="/resources/admin/metronic/assets/global/plugins/jquery.blockui.min.js"/>" type="text/javascript"></script>
+<script src="<c:url value="/resources/admin/metronic/assets/global/plugins/uniform/jquery.uniform.min.js"/>" type="text/javascript"></script>
+<script src="<c:url value="/resources/admin/metronic/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js"/>" type="text/javascript"></script>
 <!-- END CORE PLUGINS -->
 <!-- BEGIN PAGE LEVEL PLUGINS -->
-<script src="../../assets/global/plugins/amcharts/amcharts/amcharts.js" type="text/javascript" ></script>
-<script src="../../assets/global/plugins/amcharts/amcharts/serial.js" type="text/javascript" ></script>
-<script src="../../assets/global/plugins/amcharts/amcharts/pie.js" type="text/javascript" ></script>
-<script src="../../assets/global/plugins/amcharts/amcharts/themes/light.js" type="text/javascript" ></script>
-<script src="../../assets/global/plugins/morris/morris.min.js" type="text/javascript"></script>
-<script src="../../assets/global/plugins/morris/raphael-min.js" type="text/javascript"></script>
-<script src="../../assets/global/plugins/jquery.sparkline.min.js" type="text/javascript"></script>
+<script src="<c:url value="/resources/admin/metronic/assets/global/plugins/amcharts/amcharts/amcharts.js"/>" type="text/javascript" ></script>
+<script src="<c:url value="/resources/admin/metronic/assets/global/plugins/amcharts/amcharts/serial.js"/>" type="text/javascript" ></script>
+<script src="<c:url value="/resources/admin/metronic/assets/global/plugins/amcharts/amcharts/pie.js"/>" type="text/javascript" ></script>
+<script src="<c:url value="/resources/admin/metronic/assets/global/plugins/amcharts/amcharts/themes/light.js"/>" type="text/javascript" ></script>
+<script src="<c:url value="/resources/admin/metronic/assets/global/plugins/morris/morris.min.js"/>" type="text/javascript"></script>
+<script src="<c:url value="/resources/admin/metronic/assets/global/plugins/morris/raphael-min.js"/>" type="text/javascript"></script>
+<script src="<c:url value="/resources/admin/metronic/assets/global/plugins/jquery.sparkline.min.js"/>" type="text/javascript"></script>
 <!-- END PAGE LEVEL PLUGINS -->
 
 <!-- BEGIN PAGE LEVEL SCRIPTS -->
-<script src="../../assets/global/scripts/metronic.js" type="text/javascript"></script>
-<script src="../../assets/admin/layout6/scripts/layout.js" type="text/javascript"></script>
-<script src="../../assets/admin/layout6/scripts/quick-sidebar.js" type="text/javascript"></script>
-<script src="../../assets/admin/layout6/scripts/index.js" type="text/javascript"></script>
-<script src="../../assets/admin/pages/scripts/tasks.js" type="text/javascript"></script>
+<script src="<c:url value="/resources/admin/metronic/assets/global/scripts/metronic.js"/>" type="text/javascript"></script>
+<script src="<c:url value="/resources/admin/metronic/assets/admin/layout6/scripts/layout.js"/>" type="text/javascript"></script>
+<script src="<c:url value="/resources/admin/metronic/assets/admin/layout6/scripts/quick-sidebar.js"/>" type="text/javascript"></script>
+<script src="<c:url value="/resources/admin/metronic/assets/admin/layout6/scripts/index.js"/>" type="text/javascript"></script>
+<script src="<c:url value="/resources/admin/metronic/assets/admin/pages/scripts/tasks.js"/>" type="text/javascript"></script>
 <!-- END PAGE LEVEL SCRIPTS -->
 <script>
 jQuery(document).ready(function() {    
