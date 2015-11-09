@@ -14,6 +14,8 @@ public class ViewByCustomer {
 			return "collection_template/user/collection/fashion/kuteshop/kuteshop.jsp";
 		}else if(nameShop.equals("lien")){
 			return "collection_template/user/collection/fashion/kuteshop/kuteshop_index2.jsp";
+		}else if(nameShop.equals("linh")){
+			return "collection_template/user/collection/fashion/kuteshop/kuteshop_index3.jsp";
 		}
 		return "collection_template/admin/collection/admin/metronic/theme/templates/admin6/index.jsp";
 	}
